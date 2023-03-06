@@ -1,0 +1,32 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "A Cypress Automation Framework with Helper Classes for Multi-site testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awbenson/cypress-automation.git"
+  },
+  "keywords": [
+    "Cypress",
+    "End-To-End",
+    "Automation",
+    "Testing"
+  ],
+  "author": "Andrew Benson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/awbenson/cypress-automation/issues"
+  },
+  "homepage": "https://github.com/awbenson/cypress-automation#readme",
+  "devDependencies": {
+    "cypress": "12.6.0",
+    "typescript": "4.9.5"
+  },
+  "dependencies": {
+    "@faker-js/faker": "7.6.0"
+  }
+}
