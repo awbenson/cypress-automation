@@ -1,6 +1,6 @@
 {
   "name": "cypress-automation",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "A Cypress Automation Framework with Helper Classes for Multi-site testing",
   "main": "index.js",
   "scripts": {
