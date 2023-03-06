@@ -10,3 +10,11 @@ To meet these goals, a basic setup will show the running of the code to a couple
 Furthermore, Faker-js is implemented here to quickly add fake data to be used for filling out forms. This is used to fill out a "template" object then that is used across multiple tests with consistent data.  While possible to use the seed functionality of Faker-js this can give an object that can be saved against.
 
 Since the code runs on it's own domain, it is possible to share data across tests through the use of localStorage or sessionStorage.  This is how a "summary" report of API testing can be created by making a list in localstorage, testing and adding to this list then when all the tests run, report that into the browser's console or even write it to the screen if you add an HTML file to utilize as the "page" while API calls are being made.
+
+# Roadmap
+
+1.0 Create system to provide End to End testing by as simple as download, install and then write tests.
+1.1 Create a system to encapsulate page by page work so you can string together pages for automated flows to get to specifics that you want to test.
+1.2 Add in Faker to provide stub data for common fields, making it easy to apply when writing tests.
+1.3 Add in Profiles, so you can "fake" a persona, then reuse this persona over and over again.  This would be good for testing flows that build up over time and you need a login or history for that user.  The idea is like using persona for UX with specific interests and goals to design towards, but applied in Testing Scenarios.  This may mean a Node.js entry to run commands to build a profile which may be a JSON file representing the person and features you need.
+
